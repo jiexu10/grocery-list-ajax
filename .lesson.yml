@@ -1,0 +1,8 @@
+---
+title: "Grocery List with AJAX"
+type: "challenge"
+description: "Display and append to a list of groceries using AJAX and JavaScript."
+visibility: "assign"
+tags: "system-check, sinatra, ajax, javascript"
+ignore:
+- "grocery-list-ajax.md"

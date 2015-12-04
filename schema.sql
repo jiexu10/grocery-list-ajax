@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS groceries;
+CREATE TABLE groceries (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL
+);
