@@ -4,6 +4,10 @@
   <% @groceries.each do |item| %>
     <li class="item">
       <%= item['name'] %>
+      <form action="/groceries/jsdelete/<%= item["id"] %>" method="post" class="delete_form">
+        <input type="hidden" name="_method" value="DELETE"</input>
+        <input type="submit" value="Delete" id="<%= item["id"] %>"></input>
+      </form>
     </li>
   <% end %>
 </ul>

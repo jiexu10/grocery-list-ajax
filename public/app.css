@@ -5,3 +5,7 @@ body {
 .row {
   margin: 20px 5%;
 }
+
+.delete_form {
+  display: inline-block;
+}
